@@ -1,0 +1,7 @@
+# Local secrets and downloaded VPN configurations must never be committed.
+*.pem
+*.key
+ipsec.secrets
+*.secrets
+*vpn*configuration*.txt
+*vpn*config*.txt
